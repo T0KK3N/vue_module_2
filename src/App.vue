@@ -1,6 +1,6 @@
 <template>
   <h1>Bienvenido al curso de Vue</h1>
-  <div class="“notas”">
+  <div class="notas">
     <nav>
       <ul>
         <li v-for="nota in notas" v-bind:key="nota.titulo">
